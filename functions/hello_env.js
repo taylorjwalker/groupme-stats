@@ -1,3 +1,4 @@
+require("dotenv").config();
 const { GREETING } = process.env;
 
 exports.handler = async (event, context) => {
